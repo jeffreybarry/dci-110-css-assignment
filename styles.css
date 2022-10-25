@@ -1,0 +1,53 @@
+body {
+  background-color: #F0F3BD;
+  margin: 0;
+  padding: 0;
+  font-family: 'Abril Fatface', cursive;
+}
+p {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-size: 1.8rem;
+}
+
+section p {
+  margin: 2rem;
+}
+#top {
+  background-color: #00A896;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+h1 {
+  font-size: 4.4rem;
+  text-align: center;
+  color: #04415A;
+}
+
+a {
+  color: #00a896;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px dotted;
+}
+
+
+
+.redtext {
+  color: red;
+}
+
+blockquote {
+  margin-left: 5rem;
+  border-left: 1rem solid #00A896;
+}
+
+blockquote p {
+  margin-left: 1rem;
+}
+
+cite {
+  margin-left: 1rem;
+}
