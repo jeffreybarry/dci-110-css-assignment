@@ -1,5 +1,5 @@
 # dci-110-css-assignment
-Annotated guide to the CSS assignment
+Solutions to the CSS assignment
 
-## Tips
+## Tip
 Validate your HTML before submitting by using a markup validator: https://validator.w3.org/
