@@ -1,53 +1,49 @@
 body {
-  background-color: #F0F3BD;
-  margin: 0;
+  background-color: #F0F3BD; /* make background of entire page yellow. */
+  margin: 0; /* zero out all margins & padding to eliminate white spacing around boxes. */
   padding: 0;
-  font-family: 'Abril Fatface', cursive;
-}
-p {
+/* best practice to set base font family for document */
   font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+p { /* optional styling  */
   font-size: 1.8rem;
 }
-
-section p {
+p { /* adds margin around all paragraphs */
   margin: 2rem;
 }
 #top {
-  background-color: #00A896;
-  padding-top: 10rem;
+  background-color: #00A896; /* overrides body background color */
+  padding-top: 10rem; /* adds spacing above and below content */
   padding-bottom: 10rem;
 }
-
 h1 {
+  font-family: 'Abril Fatface', cursive;
   font-size: 4.4rem;
-  text-align: center;
+  text-align: center; /* do not use center tag in html */
   color: #04415A;
 }
-
 a {
   color: #00a896;
-  text-decoration: none;
+  text-decoration: none; /* optional */
 }
-
 a:hover {
-  border-bottom: 1px dotted;
+  border-bottom: 1px dotted; /* optional */
 }
-
-
-
 .redtext {
   color: red;
 }
-
+/* styling the <strong> tag is the same as above
+strong {
+  color: red;
+}
+*/
 blockquote {
   margin-left: 5rem;
   border-left: 1rem solid #00A896;
 }
-
 blockquote p {
   margin-left: 1rem;
 }
-
 cite {
   margin-left: 1rem;
 }
